@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="script" href="script.js">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  
+  <div class="header">
+    <div class="header-logo" onclick="playImageSound()">
+      <audio id="clickSound" src="./audio/quack.mp3" preload="auto"></audio>
+      <img src="./images/mw_logo_white.png" alt="MW Logo" />
+    </div>
+    <div class="header-links">
+      <div class="link-item">
+        <a href="./index.html"><img src="./images/Home Page.png" alt="Home" /></a>
+      </div>
+      <div class="link-item">
+        <a href="./portfolio/portfolio.html"><img src="./images/Portfolio.png" alt="Portfolio" /></a>
+      </div>
+      <div class="link-item">
+        <img src="./images/Wrench.png" alt="Serviços" />
+      </div>
+      <div class="link-item">
+        <img src="./images/Phone Message.png" alt="Contato" />
+      </div>
+    </div>
+  </div>
+
+  <div class="main">
+    <audio id="clickSound2" src="./audio/ouch.mp3" preload="auto"></audio>
+    <img src="./images/foto_maxwell.png" alt="Foto de Maxwell" onclick="playPhotoSound()" />
+    <h1>Maxwell Fernandes</h1>
+    <p>Estudante do segundo período de Sistemas de Informação na UVV, com paixão por desvendar o universo
+      da tecnologia. Minha jornada profissional e pessoal abrange desde a <strong>manutenção de computadores</strong>
+      a <strong>desenvolvimento
+        de software</strong>. A arte também me chama a atenção, como <strong>design e pixel art</strong>, onde a
+      criatividade
+      encontra a técnica.<br>Busco constantemente integrar essas áreas para criar soluções inovadoras e visualmente
+      atraentes.</p>
+    <div class="learn-more-button">
+      <a class="cta-button" href="./documets/curriculo.pdf" download="curriculo.pdf" target="_blank">CURRÍCULO</a>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <a href="https://www.instagram.com/maxwllfc/" target="_blank"><img src="./images/Instagram Circle.png"
+          alt="Instagram" /></a>
+      <a href="https://github.com/maxwllfc" target="_blank"><img src="./images/GitHub.png" alt="GitHub" /></a>
+      <a href="https://www.linkedin.com/in/maxwell-fernandes-35363536b/" target="_blank"><img
+          src="./images/LinkedIn Circled.png" alt="Linkedin" /></a>
+      <a href="mailto:mw.dev.contact@proton.me" target="_blank"><img src="./images/Circled Envelope.png"
+          alt="E-mail" /></a>
+      <a href="https://wa.me/5527974002669" target="_blank"><img src="./images/WhatsApp.png" alt="Whatsapp" /></a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
